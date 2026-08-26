@@ -36,8 +36,7 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinx.ext.napoleon",
     "sphinxcontrib_github_alt",
-    "sphinxcontrib.blockdiag",
-    "sphinxcontrib.seqdiag",
+    "sphinxcontrib.mermaid",
     "sphinxcontrib.openapi",
     "sphinxemoji.sphinxemoji",
     "sphinx_autodoc_typehints",
@@ -168,9 +167,9 @@ html_static_path = ["_static"]
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
-# html_css_files = [
-#     "custom.css",
-# ]
+html_css_files = [
+    "custom.css",
+]
 
 html_context = {
     # ...
