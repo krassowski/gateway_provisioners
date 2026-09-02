@@ -23,6 +23,8 @@
     "{response_address}",
     "--public-key",
     "{public_key}",
+    "--transport-encryption",
+    "{transport_encryption}",
     "--kernel-class-name",
     "${ipykernel_subclass_name}"
   ]
