@@ -19,6 +19,9 @@ jobs:
     permissions:
       id-token: write
     steps:
+      # required to build Scala (Toree) kernel launcher jar
+      - uses: sbt/setup-sbt@v1
+
       - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
 
       - uses: actions/create-github-app-token@v1

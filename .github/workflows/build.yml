@@ -63,6 +63,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+      # keep actions here in sync with publish-release
       - uses: sbt/setup-sbt@v1
       - name: Base Setup
         uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
